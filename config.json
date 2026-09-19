@@ -1,0 +1,23 @@
+{
+  "timezone": "Africa/Johannesburg",
+  "week_starts": "monday",
+  "weekday_weight": 1.0,
+  "weekend_weight": 0.4,
+  "providers": {
+    "claude": {
+      "label": "Claude",
+      "weekly_units": 100,
+      "note": "Max / Claude Code — Settings → Usage"
+    },
+    "chatgpt": {
+      "label": "ChatGPT",
+      "weekly_units": 100,
+      "note": "Plus/Pro — Settings → Usage"
+    },
+    "grok": {
+      "label": "Grok",
+      "weekly_units": 100,
+      "note": "SuperGrok — Settings → Usage"
+    }
+  }
+}
