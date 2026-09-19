@@ -1,0 +1,60 @@
+{
+  "updated_at": "2026-09-19T05:46:40+02:00",
+  "timezone": "Africa/Johannesburg",
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "today": "2026-09-19",
+  "days_left_in_week": 2,
+  "weights": {
+    "weekday": 1.0,
+    "weekend": 0.4
+  },
+  "daily_budget_pct_of_week": {
+    "weekdag": 17.2,
+    "naweek": 6.9
+  },
+  "providers": {
+    "claude": {
+      "label": "Claude",
+      "note": "Max / Claude Code — Settings → Usage",
+      "source": "manual",
+      "week_pct_used": 55.0,
+      "week_remaining_pct": 45.0,
+      "day_remaining_pct": 100.0,
+      "today_budget_units": 6.9,
+      "today_fair_units": 22.5,
+      "remaining_units": 45.0,
+      "pace_status": "voor",
+      "reading_updated_at": "2026-09-19T05:46:40+02:00",
+      "day_type": "naweek"
+    },
+    "chatgpt": {
+      "label": "ChatGPT",
+      "note": "Plus/Pro — Settings → Usage",
+      "source": "manual",
+      "week_pct_used": 40.0,
+      "week_remaining_pct": 60.0,
+      "day_remaining_pct": 100.0,
+      "today_budget_units": 6.9,
+      "today_fair_units": 30.0,
+      "remaining_units": 60.0,
+      "pace_status": "voor",
+      "reading_updated_at": "2026-09-19T05:46:40+02:00",
+      "day_type": "naweek"
+    },
+    "grok": {
+      "label": "Grok",
+      "note": "SuperGrok — Settings → Usage",
+      "source": "manual",
+      "week_pct_used": 25.0,
+      "week_remaining_pct": 75.0,
+      "day_remaining_pct": 100.0,
+      "today_budget_units": 6.9,
+      "today_fair_units": 37.5,
+      "remaining_units": 75.0,
+      "pace_status": "voor",
+      "reading_updated_at": "2026-09-19T05:46:40+02:00",
+      "day_type": "naweek"
+    }
+  }
+}

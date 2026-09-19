@@ -1,0 +1,105 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f1419;
+  --card: #1a2332;
+  --text: #e7ecf3;
+  --muted: #8b9bb4;
+  --ok: #7ee787;
+  --warn: #f0c14a;
+  --bad: #ff7b72;
+  --claude: #d4a27f;
+  --chatgpt: #10a37f;
+  --grok: #3d9cf0;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100dvh;
+  padding: 16px;
+  padding-bottom: 32px;
+}
+header h1 {
+  font-size: 1.25rem;
+  margin: 0 0 4px;
+  font-weight: 650;
+}
+header p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.meta {
+  margin: 14px 0 18px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.cards { display: grid; gap: 12px; }
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 14px 14px 16px;
+  border: 1px solid #243044;
+}
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.card h2 span.badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.row .label { font-size: 0.8rem; color: var(--muted); }
+.row .pct { font-size: 1.35rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.bar {
+  height: 10px;
+  background: #0f1419;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.bar > i {
+  display: block;
+  height: 100%;
+  width: 0%;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+.card[data-p="claude"] .bar > i { background: var(--claude); }
+.card[data-p="chatgpt"] .bar > i { background: var(--chatgpt); }
+.card[data-p="grok"] .bar > i { background: var(--grok); }
+.hint {
+  font-size: 0.75rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+.status-voor { color: var(--ok); }
+.status-agter { color: var(--bad); }
+.status-reg { color: var(--warn); }
+.status-wag_vir_lesing { color: var(--muted); }
+footer {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.empty {
+  padding: 24px;
+  text-align: center;
+  color: var(--muted);
+}
