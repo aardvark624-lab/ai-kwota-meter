@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-19T07:31:35+02:00",
+  "updated_at": "2026-09-21T07:17:29+02:00",
   "timezone": "Africa/Johannesburg",
-  "week_start": "2026-09-14",
-  "week_end": "2026-09-20",
-  "today": "2026-09-19",
-  "days_left_in_week": 2,
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "today": "2026-09-21",
+  "days_left_in_week": 7,
   "weights": {
     "weekday": 1.0,
     "weekend": 0.4
@@ -18,15 +18,15 @@
       "label": "Claude",
       "note": "Max / Claude Code — Settings → Usage",
       "source": "manual",
-      "week_pct_used": 1.0,
-      "week_remaining_pct": 99.0,
-      "day_remaining_pct": 100.0,
-      "today_budget_units": 6.9,
-      "today_fair_units": 49.5,
-      "remaining_units": 99.0,
-      "pace_status": "voor",
-      "reading_updated_at": "2026-09-19T07:31:35+02:00",
-      "day_type": "naweek"
+      "week_pct_used": 22.0,
+      "week_remaining_pct": 78.0,
+      "day_remaining_pct": 78.0,
+      "today_budget_units": 17.24,
+      "today_fair_units": 13.45,
+      "remaining_units": 78.0,
+      "pace_status": "agter",
+      "reading_updated_at": "2026-09-21T07:17:29+02:00",
+      "day_type": "weekdag"
     },
     "chatgpt": {
       "label": "ChatGPT",
@@ -34,13 +34,13 @@
       "source": "manual",
       "week_pct_used": 40.0,
       "week_remaining_pct": 60.0,
-      "day_remaining_pct": 100.0,
-      "today_budget_units": 6.9,
-      "today_fair_units": 30.0,
+      "day_remaining_pct": 60.0,
+      "today_budget_units": 17.24,
+      "today_fair_units": 10.34,
       "remaining_units": 60.0,
-      "pace_status": "voor",
+      "pace_status": "agter",
       "reading_updated_at": "2026-09-19T05:46:40+02:00",
-      "day_type": "naweek"
+      "day_type": "weekdag"
     },
     "grok": {
       "label": "Grok",
@@ -48,13 +48,13 @@
       "source": "manual",
       "week_pct_used": 25.0,
       "week_remaining_pct": 75.0,
-      "day_remaining_pct": 100.0,
-      "today_budget_units": 6.9,
-      "today_fair_units": 37.5,
+      "day_remaining_pct": 75.0,
+      "today_budget_units": 17.24,
+      "today_fair_units": 12.93,
       "remaining_units": 75.0,
-      "pace_status": "voor",
+      "pace_status": "agter",
       "reading_updated_at": "2026-09-19T05:46:40+02:00",
-      "day_type": "naweek"
+      "day_type": "weekdag"
     }
   }
 }
