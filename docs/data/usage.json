@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T07:23:39+02:00",
+  "updated_at": "2026-09-30T07:40:30+02:00",
   "timezone": "Africa/Johannesburg",
   "week_start": "2026-09-28",
   "week_end": "2026-10-04",
@@ -46,14 +46,14 @@
       "label": "Grok",
       "note": "SuperGrok — Settings → Usage",
       "source": "manual",
-      "week_pct_used": 25.0,
-      "week_remaining_pct": 75.0,
+      "week_pct_used": 1.0,
+      "week_remaining_pct": 99.0,
       "day_remaining_pct": 100.0,
       "today_budget_units": 17.24,
-      "today_fair_units": 19.74,
-      "remaining_units": 75.0,
+      "today_fair_units": 26.05,
+      "remaining_units": 99.0,
       "pace_status": "voor",
-      "reading_updated_at": "2026-09-19T05:46:40+02:00",
+      "reading_updated_at": "2026-09-30T07:40:30+02:00",
       "day_type": "weekdag"
     }
   }
