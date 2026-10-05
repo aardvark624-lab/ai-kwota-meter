@@ -1,14 +1,14 @@
 {
   "claude": {
-    "week_pct_used": 74.0,
-    "updated_at": "2026-10-02T07:20:40+02:00"
+    "week_pct_used": 9.0,
+    "updated_at": "2026-10-05T07:21:51+02:00"
   },
   "chatgpt": {
     "week_pct_used": 40.0,
     "updated_at": "2026-09-19T05:46:40+02:00"
   },
   "grok": {
-    "week_pct_used": 1.0,
-    "updated_at": "2026-10-01T07:21:55+02:00"
+    "week_pct_used": 0.0,
+    "updated_at": "2026-10-05T07:24:12+02:00"
   }
 }
