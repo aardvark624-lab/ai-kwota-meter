@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T07:22:42+02:00",
+  "updated_at": "2026-10-07T07:23:33+02:00",
   "timezone": "Africa/Johannesburg",
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
@@ -18,14 +18,14 @@
       "label": "Claude",
       "note": "Max / Claude Code — Settings → Usage",
       "source": "manual",
-      "week_pct_used": 9.0,
-      "week_remaining_pct": 91.0,
-      "day_remaining_pct": 100.0,
+      "week_pct_used": 59.0,
+      "week_remaining_pct": 41.0,
+      "day_remaining_pct": 62.6,
       "today_budget_units": 17.24,
-      "today_fair_units": 23.95,
-      "remaining_units": 91.0,
-      "pace_status": "voor",
-      "reading_updated_at": "2026-10-05T07:21:51+02:00",
+      "today_fair_units": 10.79,
+      "remaining_units": 41.0,
+      "pace_status": "agter",
+      "reading_updated_at": "2026-10-07T07:23:33+02:00",
       "day_type": "weekdag"
     },
     "chatgpt": {
