@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T07:19:17+02:00",
+  "updated_at": "2026-10-08T07:20:35+02:00",
   "timezone": "Africa/Johannesburg",
   "week_start": "2026-10-05",
   "week_end": "2026-10-11",
@@ -18,14 +18,14 @@
       "label": "Claude",
       "note": "Max / Claude Code — Settings → Usage",
       "source": "manual",
-      "week_pct_used": 59.0,
-      "week_remaining_pct": 41.0,
-      "day_remaining_pct": 84.9,
+      "week_pct_used": 73.0,
+      "week_remaining_pct": 27.0,
+      "day_remaining_pct": 55.9,
       "today_budget_units": 17.24,
-      "today_fair_units": 14.64,
-      "remaining_units": 41.0,
-      "pace_status": "voor",
-      "reading_updated_at": "2026-10-07T07:24:05+02:00",
+      "today_fair_units": 9.64,
+      "remaining_units": 27.0,
+      "pace_status": "agter",
+      "reading_updated_at": "2026-10-08T07:20:08+02:00",
       "day_type": "weekdag"
     },
     "chatgpt": {
@@ -46,14 +46,14 @@
       "label": "Grok",
       "note": "SuperGrok — Settings → Usage",
       "source": "manual",
-      "week_pct_used": 0.0,
-      "week_remaining_pct": 100.0,
+      "week_pct_used": 1.0,
+      "week_remaining_pct": 99.0,
       "day_remaining_pct": 100.0,
       "today_budget_units": 17.24,
-      "today_fair_units": 35.71,
-      "remaining_units": 100.0,
+      "today_fair_units": 35.36,
+      "remaining_units": 99.0,
       "pace_status": "voor",
-      "reading_updated_at": "2026-10-06T22:45:49+02:00",
+      "reading_updated_at": "2026-10-08T07:20:35+02:00",
       "day_type": "weekdag"
     }
   }
